@@ -2,11 +2,13 @@ body{
     padding: 0;
     margin: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-height: 100vh;
 
 }
 
-img{
-    width: 250px;
+.intro-img{
+    width: 400px;
+    height:250px;
     border-radius: 10px;
 }
 .nav{
@@ -46,6 +48,7 @@ a:hover{
 .content-container{
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 
 .intro-container{
@@ -85,4 +88,87 @@ button{
     color: #F9FAF8;
     padding: 3px 16px;
     font-size: 18px;
+    
+}
+
+.service-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 4% 0;
+}
+
+.service-items{
+    display: flex;
+    gap: 16px;
+}
+
+img{
+    height: 250px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 2% 0;
+
+}
+.text{
+    font-size: 18px;
+    text-align: center;
+    color: #1F2937;
+}
+
+.testimonial{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 15%;
+}
+.quote-text,
+.naming{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+
+}
+.naming{
+    padding-top: 0;
+    text-align: right;
+    align-self: self-end;
+}
+
+.contact-container{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact{
+    display: flex;
+    background-color: #3882F6;
+    margin-top: 2%;
+    padding: 4px 10%;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+h3{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.contact .button{
+    border:2px solid #E5E7EB;
 }
